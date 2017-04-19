@@ -1,0 +1,114 @@
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+	margin: 0px;
+
+}
+nav {
+	width: 100%;
+	height: 300px;
+	background: url(ddd.jpg);
+	background-size: cover;
+	margin: 0%;
+	padding: 0%;
+
+}
+
+nav ul {
+	height: 200px;
+	width: 100%;
+	background-color: #0D0603;
+	padding: 0px;
+	margin: 0px;
+	background-color: rgba(0,0,0,0.4);
+
+
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-weight: bold;
+	padding: 15px;
+}
+
+
+nav ul li a {
+	color: #cba75e;
+	text-decoration: none;
+	text-shadow: 3px 3px black; 
+}
+
+
+.Početna {
+	text-align: left;
+	font-family: Georgia, sans-serif;
+	background-color: #0D0603;
+	background-size: cover;
+	color: #cba75e;
+	margin: 0px;
+	padding: 150px;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+}
+
+.Galerija {
+	background: url(ddd.jpg);
+	background-size: cover;
+	width: 100%;
+	margin: 0px;
+}
+
+#galery img {
+	transition: 0.5s;
+}
+
+#galery img:hover {
+	transform: scale(1.2,1.2);
+	transform: rotate(20deg);
+	transition: 0.5s;
+
+}
+
+.Naš-meni {
+	
+	background-color: #0D0603;
+	background-size: cover;
+	color: #cba75e;
+	margin: 0px;
+	padding: 80px;
+	text-align: left;
+	
+}
+
+.nm {
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 4px 4px black;
+
+}
+
+.Naš-meni ul li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	background: url(ddd.jpg);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	color: #cba75e;
+	text-align: right;
+}	
+footer ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+.mail {
+	text-decoration: none;
+	color: #cba75e;
+
+}
